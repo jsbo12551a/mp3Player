@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-size: 0; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+.main {
+  margin-right: 100px;
+  background-color: #1a1a1a;
+  height: 100%;
+  font-size: 0;
+}
+.author {
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+}
+.author img {
+  width: 100%;
+  height: 100%;
+}
+.playlist {
+  display: inline-block;
+  font-size: 25px;
+  width: 60%;
+  position: absolute;
+  top: 0;
+  padding: 50px;
+  color: #fff;
+}
+.playlist .header {
+  padding: 10px;
+}
+.playlist .header button {
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: #964a4d;
+  cursor: pointer;
+  color: #fff;
+  margin: 10px;
+}
+.playlist .list {
+  padding: 10px;
+  text-align: center;
+}
+
+.playlist .list table {
+  border-collapse: collapse;
+}
+.playlist .list th {
+  padding: 30px;
+}
+.playlist .list td {
+  border-top: 1px solid rgb(138, 133, 133);
+  padding: 10px 0;
+  cursor: pointer;
+}
+.playlist .list tr:hover{
+    background-color: rgba(255, 255, 255, 0.267);
+}
+/* 選中歌曲 */
+.new{
+    background: url('images/ic_music_note_24px.png') no-repeat center;
+}
+
+.main .drawer{
+font-size: 25px;
+ background-color: #772020;
+ width: 100%;
+ height: 80px;
+ position: absolute;
+ bottom: 0;
+ color: #fff;
+ text-align: center;
+}
+.main .drawer p{
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    bottom: 25px;
+}
+.main .drawer .but{
+    display: inline-block;
+}
+
+.main .drawer .but img{
+    padding:10px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.personal {
+  position: absolute;
+  width: 100px;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-color: #4b3434;
+  text-align: center;
+}
+.personal img{
+    margin: 50px 25px;
+    cursor: pointer;
+}
+
+.personal .m {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
